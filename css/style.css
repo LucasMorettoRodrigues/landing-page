@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.sectionone {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 400px 120px 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.header p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+}
+
+.maintext{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.secondarytext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.buttonone{
+    background-color: #3882F6;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    width: 120px;
+    margin-top: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.marte{
+    width: 500px;
+    height: 280px;
+}
+
+.headerlinks a{
+    padding: 0 20px;
+}
+
+.sectiontwo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px;
+}
+
+.box{
+    width: 180px;
+}
+
+.sectionthree {
+    padding: 120px 500px 80px 500px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.sectionfour{
+    align-items: center;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    margin: 80px 500px;
+    color: white;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.infotext{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.bluebox button{
+    padding: 6px 26px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border-color: white;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 60px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
